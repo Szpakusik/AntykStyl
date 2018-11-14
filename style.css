@@ -1,0 +1,75 @@
+/*
+ Theme Name:   Shopper Child
+ Theme URI:    http://example.com/nope/
+ Description:  Shopper Child Theme
+ Author:       SzpaQ
+ Author URI:   http://szpakowski-portfolio.pl
+ Template:     shopper
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  shopper-child
+*/
+/* Front Page */
+.index_front{
+	width: 100%;
+	text-align: center;
+}
+.index_front_title{
+	font-family: "Lato", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 200%;
+}
+.img_100{
+	width: 100%;
+	padding: 15px;
+}
+.hr_100{
+	width: 100%;
+	color: gray;
+}
+/* Kontakt */
+.wpcf7-form-control{
+	background-color: #E1E0E0;
+}
+.wpcf7-text{
+	background-color: #E1E0E0;
+}
+.wpcf7 input.wpcf7-text,
+.wpcf7 .wpcf7-textarea {
+width: 100%; 
+text-align: left;
+background-color:#f7f7f7;
+transition: box-shadow 1s ease;
+border: none;
+padding: 10px;
+} 
+.wpcf7 input[type=submit]{
+	border-radius: 0px !important;
+	border: 1px solid #000 !important;
+}
+.wpcf7 input[type=submit]:hover{
+	background-color:#000;
+	color: #fff;
+	border: 1px solid #f16c20 !important;
+}
+.center{
+	text-align: center;
+}
+.left_50{
+	float: left;
+	width: 50%;
+}
+.right_50{
+	float: right;
+	width: 50%
+}
+
+/*Hovery */
+.wpcf7 input.wpcf7-text:focus,
+.wpcf7 .wpcf7-textarea:focus{
+	-webkit-box-shadow: 0px 0px 34px 1px rgba(255,132,0,0.3);
+	-moz-box-shadow: 0px 0px 34px 1px rgba(255,132,0,0.3);
+	box-shadow: 0px 0px 34px 1px rgba(255,132,0,0.3);
+	border:1px solid #f25800;
+}
